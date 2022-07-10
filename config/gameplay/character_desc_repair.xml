@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+    <!---------------------------SVOBODA TRADER----------------------->
+    <specific_character id="mil_Svoboda_trader" team_default="1">
+        <name>mil_Svoboda_trader_name</name>
+        <icon>ui_npc_u_stalker_sv_balon_1</icon>
+        <map_icon x="5" y="0"></map_icon>
+        <bio>mil_Svoboda_trader_bio</bio>
+        <team>Svoboda_master</team>
+        <class>mil_Svoboda_trader</class>
+        <community>dolg</community>
+        <terrain_sect>stalker_freedom_terrain</terrain_sect>
+        <snd_config>characters_voice\human_02_ukr\freedom\</snd_config>
+        <crouch_type>-1</crouch_type>
+        <rank>730</rank>
+        <reputation>96</reputation>
+        <visual>actors\svoboda\stalker_sv_balon_1</visual>
+        <supplies>
+            [spawn] \n
+            wpn_sig220 \n
+            ammo_11.43x23_hydro = 1 \n
+            wpn_sig550 \n
+            ammo_5.56x45_ap = 1 \n
+        </supplies>
+        #include "gameplay\character_criticals_5.xml"
+        <start_dialog>mil_trader_dialog</start_dialog>
+        <actor_dialog>want_repair_dialog</actor_dialog>
+    </specific_character>
+</xml>
