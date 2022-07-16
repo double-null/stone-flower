@@ -1,0 +1,13 @@
+function spawn_freedom_group_escape()
+    local x, y, z = -236.50, -20.00, -160.20
+    local lv, gv = 21326, 47
+    alife():create("esc_bodyguard_first", vector():set(x,y,z), lv, gv)
+
+    local x, y, z = -235.00, -20.02, -155.50
+    local lv, gv = 21326, 47
+    alife():create("esc_bodyguard_second", vector():set(x,y,z), lv, gv)
+
+    local x, y, z = -233.50, -20.00, -156.80
+    local lv, gv = 21326, 47
+    alife():create("esc_amoral", vector():set(x,y,z), lv, gv)
+end

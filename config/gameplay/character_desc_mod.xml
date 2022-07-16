@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding="windows-1251"?>
+
+<xml>
+    <specific_character id="esc_bodyguard_first" team_default="1">
+        <name>bodyguard_first</name>
+        <icon>ui_npc_u_stalker_sv_exoskeleton</icon>
+        <bio></bio>
+        <class>esc_bodyguard_first</class>
+        <community>freedom</community>
+        <terrain_sect>stalker_freedom_terrain</terrain_sect>
+        <snd_config>characters_voice\human_02_ukr\freedom\</snd_config>
+        <crouch_type>-1</crouch_type>
+        <rank>1000</rank>
+        <reputation>96</reputation>
+        <visual>actors\svoboda\stalker_sv_exoskeleton</visual>
+        <supplies>
+            [spawn] \n
+            wpn_sig220 \n
+            ammo_11.43x23_hydro = 1 \n
+            wpn_sig550 \n
+            ammo_5.56x45_ap = 1 \n
+        </supplies>
+        #include "gameplay\character_criticals_5.xml"
+    </specific_character>
+
+    <specific_character id="esc_bodyguard_second" team_default="1">
+        <name>bodyguard_first</name>
+        <icon>ui_npc_u_stalker_sv_exoskeleton</icon>
+        <bio></bio>
+        <class>esc_bodyguard_second</class>
+        <community>freedom</community>
+        <terrain_sect>stalker_freedom_terrain</terrain_sect>
+        <snd_config>characters_voice\human_02_ukr\freedom\</snd_config>
+        <crouch_type>-1</crouch_type>
+        <rank>1000</rank>
+        <reputation>96</reputation>
+        <visual>actors\svoboda\stalker_sv_exoskeleton</visual>
+        <supplies>
+            [spawn] \n
+            wpn_sig220 \n
+            ammo_11.43x23_hydro = 1 \n
+            wpn_sig550 \n
+            ammo_5.56x45_ap = 1 \n
+        </supplies>
+        #include "gameplay\character_criticals_5.xml"
+    </specific_character>
+
+    <specific_character id="esc_amoral" team_default="1">
+        <name>esc_amoral_name</name>
+        <icon>ui_npc_u_stalker_bandit_master</icon>
+        <bio></bio>
+        <class>esc_amoral</class>
+        <community>bandit</community>
+        <terrain_sect>stalker_freedom_terrain</terrain_sect>
+        <snd_config>characters_voice\human_02_ukr\freedom\</snd_config>
+        <crouch_type>-1</crouch_type>
+        <rank>1000</rank>
+        <reputation>96</reputation>
+        <visual>actors\bandit\stalker_bandit_master</visual>
+        <supplies>
+            [spawn] \n
+            wpn_sig220 \n
+            ammo_11.43x23_hydro = 1 \n
+            wpn_sig550 \n
+            ammo_5.56x45_ap = 1 \n
+        </supplies>
+        #include "gameplay\character_criticals_5.xml"
+    </specific_character>
+</xml>
